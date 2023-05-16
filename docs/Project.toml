@@ -1,0 +1,4 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CompiledPermutations = "fcb72232-d17c-42fb-b84b-29edb9b64290"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
