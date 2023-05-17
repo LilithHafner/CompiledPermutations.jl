@@ -84,7 +84,7 @@ julia> permute!(v, cp)
 
 Here is an example where this function provides performance benefits:
 
-```jldoctest; filter = r"[0-9\\.]+ μs", setup = :(using CompiledPermutations, BenchmarkTools, Random)
+```jldoctest; filter = r"[0-9\\.]+ μs", setup = :(using BenchmarkTools, Random)
 julia> perm = randperm(1000); data = [rand(1000) for _ in 1:30];
 
 julia> @btime for x in \$data; permute!(x, \$perm); end
