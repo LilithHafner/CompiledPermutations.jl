@@ -60,7 +60,7 @@ Convert a permutation `p` into a compiled permutation `cp` which can be efficien
 applied with `permute!(v, cp)`.
 
 `permute!(v, compiled_permutation!(p)))` produces the same result as `permute!(v, p)` and is
-often less efficient. This function is useful when the same permutation is applied to many
+often more efficient. This function is useful when the same permutation is applied to many
 vectors.
 
 !!! note
